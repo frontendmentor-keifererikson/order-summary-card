@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+  background-image: url('/images/pattern-background-desktop.svg');
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 450px;
+  height: 700px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.hero-img {
+  padding: 0;
+  margin: 0;
+  border-radius: 20px 20px 0 0;
+}
+
+.order-summary {
+  padding-top: 10px;
+  font-weight: 900;
+}
+
+.description {
+  color: hsl(224, 23%, 55%);
+  width: 75%;
+  margin: 20px auto;
+}
+
+div.plan-box {
+  background-color: hsl(225, 100%, 98%);
+  width: 75%;
+  height: 100px;
+  margin: 10px auto;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.plan-box-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.music-icon {
+  padding-left: 10px;
+}
+
+.selected-plan {
+  font-weight: 900;
+  padding: 2px;
+}
+
+.price {
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+  padding: 2px;
+}
+
+button.change-btn {
+  color: hsl(245, 75%, 52%);
+  font-weight: 900;
+  cursor: pointer;
+  background-color:rgba(0, 0, 0, 0);
+  text-decoration: none;
+  border: none;
+  padding: 15px 10px;
+  margin-left: 60px;
+}
+
+button.proceed-to-payment-btn {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border: none;
+  text-decoration: none;
+  display: block;
+  width: 75%;
+  padding: 15px 32px;
+  border-radius: 10px;
+  margin: 20px auto;  
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 0 20px 20px rgba(56, 41, 224, 0.2);
+}
+button.cancel-order-btn {
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  border: none;
+  text-decoration: none;
+  display: block;
+  width: 75%;
+  padding: 15px 32px;
+  border-radius: 10px;
+  margin: 20px auto;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
